@@ -76,18 +76,6 @@ Segmented users based on engagement patterns and demographics. Identified:
 
 -> High clickers, low converters
 
-**Visualizations**
-
-Created with matplotlib and seaborn inside SageMaker:
-
-1. ROI by Ad Platform
-
-2. Device Type vs Conversions
-
-3. First vs Last Touch Attribution
-
-4. Clustered User Segments
-
 **Results**
 
 -> Facebook had ~3.2 ROI, Instagram had ~1.8 ROI
@@ -98,6 +86,14 @@ Created with matplotlib and seaborn inside SageMaker:
 
 -> 3 behavioral user clusters supported targeted campaign strategies
 
+
+**Future Improvements**
+
+-> Add multi-touch attribution modeling
+
+-> Integrate real-time dashboards via QuickSight
+
+-> Forecast campaign performance with time series models
 
 
 Folder Structure
@@ -115,13 +111,5 @@ Folder Structure
 |
 |-- Report.pdf
 |-- README.md
-
-**Future Improvements**
-
--> Add multi-touch attribution modeling
-
--> Integrate real-time dashboards via QuickSight
-
--> Forecast campaign performance with time series models
 
 
