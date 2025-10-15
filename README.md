@@ -8,19 +8,19 @@ Businesses struggle to evaluate which marketing channels generate the highest re
 
 **Project Highlights**
 
-Platforms Analyzed: Facebook and Instagram
+-> Platforms Analyzed: Facebook and Instagram
 
-Tech Stack: AWS S3, Glue, Athena, SageMaker, Python, SQL, Pandas, Seaborn
+-> Tech Stack: AWS S3, Glue, Athena, SageMaker, Python, SQL, Pandas, Seaborn
 
 **Key Techniques:**
 
-ROI computation per platform
+-> ROI computation per platform
 
-Funnel analysis by device type
+-> Funnel analysis by device type
 
-First-touch and last-touch attribution
+-> First-touch and last-touch attribution
 
-KMeans clustering for user segmentation
+-> KMeans clustering for user segmentation
 
 **Dataset Preparation**
 
@@ -30,21 +30,21 @@ Augmented it using Python to simulate ad spend and revenue
 
 Normalized into 3 structured tables:
 
-users.csv
+-> users.csv
 
-campaigns.csv
+-> campaigns.csv
 
-customer_journey.csv
+-> customer_journey.csv
 
 **AWS Architecture**
 
-Amazon S3: Storage for preprocessed CSVs
+-> Amazon S3: Storage for preprocessed CSVs
 
-AWS Glue: Crawled and cataloged CSVs
+-> AWS Glue: Crawled and cataloged CSVs
 
-Athena: Queried marketing data with SQL
+-> Athena: Queried marketing data with SQL
 
-SageMaker Notebook: Visualized data and performed clustering
+-> SageMaker Notebook: Visualized data and performed clustering
 
 **Analysis Performed**
 
@@ -70,33 +70,33 @@ Studied performance across gender, age, and device combinations.
 
 Segmented users based on engagement patterns and demographics. Identified:
 
-High converters
+-> High converters
 
-Passive viewers
+-> Passive viewers
 
-High clickers, low converters
+-> High clickers, low converters
 
 **Visualizations**
 
 Created with matplotlib and seaborn inside SageMaker:
 
-ROI by Ad Platform
+1. ROI by Ad Platform
 
-Device Type vs Conversions
+2. Device Type vs Conversions
 
-First vs Last Touch Attribution
+3. First vs Last Touch Attribution
 
-Clustered User Segments
+4. Clustered User Segments
 
 **Results**
 
-Facebook had ~3.2 ROI, Instagram had ~1.8 ROI
+-> Facebook had ~3.2 ROI, Instagram had ~1.8 ROI
 
-Desktop users had 7.4% CVR vs mobile users at 5.2%
+-> Desktop users had 7.4% CVR vs mobile users at 5.2%
 
-First-touch attribution favored Facebook; last-touch leaned towards Instagram
+-> First-touch attribution favored Facebook; last-touch leaned towards Instagram
 
-3 behavioral user clusters supported targeted campaign strategies
+-> 3 behavioral user clusters supported targeted campaign strategies
 
 
 
@@ -118,12 +118,10 @@ Folder Structure
 
 **Future Improvements**
 
-Add multi-touch attribution modeling
+-> Add multi-touch attribution modeling
 
-Integrate real-time dashboards via QuickSight
+-> Integrate real-time dashboards via QuickSight
 
-Forecast campaign performance with time series models
+-> Forecast campaign performance with time series models
 
-Data Science Graduate | AWS Practitioner | Marketing Analytics Enthusiast
 
-Feel free to fork, star, or use this project as a starter te
